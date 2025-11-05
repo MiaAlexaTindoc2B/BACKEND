@@ -2,8 +2,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mysql2": "^3.15.3",
-    "nodemon": "^3.1.10"
+    "mysql2": "^3.15.3"
   },
   "name": "oct-22-panghapon-pt2",
   "version": "1.0.0",
@@ -16,5 +15,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
