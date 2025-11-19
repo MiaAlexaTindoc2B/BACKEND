@@ -49,6 +49,6 @@ export const deleteBook = async (req, res) => {
         console.log(e);
         res.status(500).json({success: false, message: "Internal Server Error"});
     }   
-}
+};
 
 
