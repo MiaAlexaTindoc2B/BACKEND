@@ -32,4 +32,4 @@ app.user("/tbl_user", UserRoutes);
 // Start server
 app.listen(port, () => {
   console.log('✅ Server running on port ${port}...');
-})
+});
